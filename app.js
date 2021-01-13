@@ -33,28 +33,28 @@
 // }  
 
 
-const personData1 = {
-    name: 'Mark',
-    age: 20,
-    hieght: 180,
-    'hair color': 'red'
-};
+// const personData1 = {
+//     name: 'Mark',
+//     age: 20,
+//     hieght: 180,
+//     'hair color': 'red'
+// };
 
-const personData2 = {
-    name: 'John',
-    age: 23,
-    hieght: 190,
-    'hair color': 'black'
-}
+// const personData2 = {
+//     name: 'John',
+//     age: 23,
+//     hieght: 190,
+//     'hair color': 'black'
+// }
 
-const arr = [20, 30, 48, 99, 19, '20'];
-const Data = Object.assign({}, personData1);
-const Data2 = {...personData2};
-console.log(Data, Data2);
+// const arr = [20, 30, 48, 99, 19, '20'];
+// const Data = Object.assign({}, personData1);
+// const Data2 = {...personData2};
+// console.log(Data, Data2);
 
-const Age = [...arr];
-const { name, age, ...other } = personData1
-console.log(name, age, other);
-console.log(Age);
+// const Age = [...arr];
+// const { name, age, ...other } = personData1
+// console.log(name, age, other);
+// console.log(Age);
 
 
